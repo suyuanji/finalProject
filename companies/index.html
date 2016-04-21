@@ -1,0 +1,78 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- this line removes any default padding and style. you might only need one of these values set. -->
+  <style>
+      html,body {
+          padding: 0;
+          margin: 0;
+          height: 100%;
+          width: 100%;
+      }
+      .cover {
+          position: absolute;
+          width: 100%;
+          height:100%;
+          background: black;
+          color: white;
+          z-index: 99;
+      }
+      .text {
+          position: absolute;
+          left: 3%;
+          top: 20%;
+      }
+      .enter {
+          position: absolute;
+          width: 130px;
+          height: 40px;
+          font-size: 20px;
+          line-height: 2;
+          text-align: center;
+          border: 1px solid white;
+          left: 5%;
+          bottom: 40%;
+          cursor: pointer;
+      }
+      .enter:hover {
+          background: white;
+          color:black;
+      }
+      .cover_img {
+          width: 40%;
+          top:20%;
+          position: absolute;
+          right: 3%;
+      }
+      .legend{
+          position: absolute;
+          width: 120px;
+          left: 20px;
+          top: 20px;
+      }
+  </style>
+</head>
+
+<body>
+<div class="cover">
+    <div class="text">
+        <h1>Companies and Investors</h1>
+        <h2>Investors put money into the enterprise,</h2>
+        <h2>the economic relationship formed by the enterprise to pay the investment returns.</h2>
+        <h2>This is a project from Northeastern MFA program.</h2>
+        <h2>ARTG5330 Visualization Technologies
+            Reference: The CrunchBase Data</h2>
+    </div>
+    <img class="cover_img" src="1.jpg">
+    <div class="enter"> Enter </div>
+</div>
+<img class="legend" src="legend.png">
+<script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+<script language="javascript" type="text/javascript" src="libraries/p5.dom.js"></script>
+<script src="libraries/jquery.min.js"></script>
+<script language="javascript" type="text/javascript" src="sketch.js"></script>
+
+</body>
+</html>

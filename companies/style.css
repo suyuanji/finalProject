@@ -1,0 +1,56 @@
+#canvas{
+    margin: auto;
+    display: block;
+}
+
+h1 {
+    font-family: Helvetica;
+    display: block;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0.67em;
+    margin-right: 0;
+    
+}
+h2 {
+    font-family: Helvetica,sans-serif;
+    display: block;
+    font-size: 1em;
+    font-weight: regular;
+    line-height: 26.4px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 1.6em;
+    margin-right: 0;
+    
+}
+#desc h2{
+    margin: 0;
+    line-height: 0.5em;
+}
+h3 {
+    font-family: Helvetica,sans-serif;
+    display: block;
+    font-size: 0.7em;
+    font-weight: regular;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 2em;
+    margin-right: 0;
+    
+}
+h4 {
+    font-family: Helvetica,sans-serif;
+    display: block;
+    font-size: 0.7em;
+    font-weight: regular;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 2em;
+    margin-right: 0;
+    
+}
