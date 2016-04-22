@@ -162,9 +162,11 @@ TimeLine.prototype = {
             var decade = e.decade * 10;
             that.ctx.ellipse(that.gap + that.interval * i, that.lineY, 15, 15);
             that.ctx.textAlign(CENTER);
-            if (decade == that.slideDot.decade * 10) {
+            if (decade == that.slideDot.decade * 10 || decade == (that.slideDot.decade + 1) * 10) {
+                that.ctx.textSize(15);
                 that.ctx.fill('rgba(209,177,32,1)');
             } else {
+                that.ctx.textSize(10);
                 that.ctx.fill('#F11B82');
             }
             that.ctx.text(decade, that.gap + that.interval * i, that.lineY - 20);
