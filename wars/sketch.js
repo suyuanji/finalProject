@@ -186,7 +186,7 @@ TimeLine.prototype = {
         this.ctx.noStroke();
         this.ctx.rect(this.slideDot.x, this.slideDot.y, this.slideDot.width, this.slideDot.height, 6);
         if (this.slideDot.x - this.interval / 2 > 0) {
-            this.slideDot.decade = this.slideDot.startDecade + ~~((this.slideDot.x + this.slideDot.width / 2 - this.gap + this.interval / 2) / this.interval);
+            this.slideDot.decade = this.slideDot.startDecade + ~~((this.slideDot.x + this.slideDot.width / 2 - this.gap + this.interval / 2 - 50) / this.interval);
         }
     },
     mousePosDetect: function () {
